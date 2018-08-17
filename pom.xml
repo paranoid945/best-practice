@@ -8,6 +8,7 @@
     <name>AsciiDoc to HTML Maven Example</name>
     <description>An example project that demonstrates how to convert AsciiDoc to HTML5 using the Asciidoctor Maven plugin.</description>
 
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
