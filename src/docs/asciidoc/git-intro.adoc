@@ -5,11 +5,13 @@
 ifndef::imagesdir[:imagesdir: images]
 ifndef::sourcedir[:sourcedir: ../../main/java]
 
+== 阅读前提
 
-== Introduction
+阅读并能理解本文的前提：您是一名软件开发人员，之前有使用其他版本管理工具（比如svn）开发软件的经验。
 
-This project does something.
-We just haven't decided what that is yet.
+== Git与svn的比较
+
+大多数人的疑问是，“我觉得svn已经足够好了，是否有切换成git的必要？”
 
 == Source Code
 
