@@ -15,6 +15,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <asciidoctor.maven.plugin.version>1.5.6</asciidoctor.maven.plugin.version>
         <asciidoctorj.version>1.5.6</asciidoctorj.version>
+        <asciidoctorj.diagram.version>1.5.9</asciidoctorj.diagram.version>
         <jruby.version>1.7.26</jruby.version>
     </properties>
 
@@ -38,6 +39,11 @@
                         <artifactId>asciidoctorj</artifactId>
                         <version>${asciidoctorj.version}</version>
                     </dependency>
+                    <dependency>
+        <groupId>org.asciidoctor</groupId>
+        <artifactId>asciidoctorj-diagram</artifactId>
+        <version>${asciidoctorj.diagram.version}</version>
+    </dependency>
                 </dependencies>
                 <configuration>
                     <sourceDirectory>src/docs/asciidoc</sourceDirectory>
@@ -51,6 +57,9 @@
                         <sourcedir>${project.build.sourceDirectory}</sourcedir>
                         <project-version>${project.version}</project-version>
                     </attributes>
+                    <requires>
+        <require>asciidoctor-diagram</require>
+    </requires>
                 </configuration>
                 <executions>
                     <execution>
