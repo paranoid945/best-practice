@@ -2,7 +2,7 @@
 贾明宇 <64896863@qq.com>
 2018-08-17
 :toc:
-ifndef::imagesdir[:imagesdir: images/gitconcept]
+ifndef::imagesdir[:imagesdir: images]
 ifndef::sourcedir[:sourcedir: ../../main/java]
 
 
