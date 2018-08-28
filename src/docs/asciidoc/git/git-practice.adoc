@@ -158,7 +158,7 @@ image::gp12.png[]
 image::gp14.png[]
 
 - 这里这四行的意思分别是：
-** Use this text block，一般在有冲突的行使用，意思是这行有冲突，我希望使用这块作为最终结果（对方分支内相关冲突行会被舍弃掉）。结合咱们的例子，如果在左侧使用，就是使用testbranch1分支的内容，舍弃master的内容。如果在右侧使用则相反，就是使用master分支的内容，舍弃testbranch1分支的内容。注意，text block的意思并不是指光标的这一行，而是指有同样颜色的几行文字区块。
+** Use this text block，一般在有冲突的行使用，意思是这行有冲突，我希望使用这块作为最终结果（对方分支内相关冲突行会被舍弃掉）。结合咱们的例子，如果在左侧使用，就是使用testbranch1分支的内容，舍弃master的内容。如果在右侧使用则相反，就是使用master分支的内容，舍弃testbranch1分支的内容。#注意，text block的意思并不是指光标的这一行，而是指有同样颜色的几行文字区块#。
 ** Use this whole file 意思是使用整个文件作为最终结果。结合咱们的例子，如果在左侧使用，会把testbranch1分支的文件内容全部覆盖到master分支。如果在右侧使用则相反，使用master分支的文件内容覆盖testbranch1分支的内容。#这种使用方法非常危险，因为正常的场景只是那几行有冲突，不可能全部文件都替换#。
 ** Use text block from 'mine' before 'theirs' 这个操作不分左右，意思是左侧分支和右侧的分支都要保留，但是mine（本例中是master）要在theirs（本例中是testbranch1）之前，处理后的结果如图。
 +
